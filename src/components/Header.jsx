@@ -8,36 +8,45 @@ const Header = () => {
   };
 
   return (
-    <nav className="relative z-50 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 shadow-lg">
+    <nav className="sticky top-0 z-20 bg-gray-700 shadow-lg">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex-shrink-0 text-2xl font-bold text-white">
-            MyBrand
+          <div className="flex-shrink-0 text-xl font-bold text-white md:text-3xl">
+            <p>aliHossain</p>
+            <p className="ml-8 flex justify-center bg-indigo-400 text-right text-[14px] md:ml-16 md:py-1">
+              academy
+            </p>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden space-x-6 font-medium text-white md:flex">
             <a href="/" className="transition hover:text-yellow-300">
-              Home
+              হোম
             </a>
             <a href="about" className="transition hover:text-yellow-300">
-              About
+              মেন্টর
             </a>
             <a href="service" className="transition hover:text-yellow-300">
-              Services
+              সকল কোর্স
+            </a>
+            <a href="service" className="transition hover:text-yellow-300">
+              ব্লগ
             </a>
             <a href="contact" className="transition hover:text-yellow-300">
-              Contact
+              যোগাযোগ
+            </a>
+            <a href="service" className="transition hover:text-yellow-300">
+              কুপন
             </a>
           </div>
 
           {/* Desktop Button */}
           <div className="hidden md:block">
             <a
-              href="#"
-              className="rounded-xl bg-white px-4 py-2 font-semibold text-indigo-700 transition-all hover:bg-yellow-300">
-              Get Started
+              href="login"
+              className="rounded-xl bg-gradient-to-r from-indigo-700 to-purple-700 px-6 py-2 text-white transition-all duration-300 hover:from-purple-700 hover:to-indigo-700">
+              রেজিস্টার/লগইন
             </a>
           </div>
 
@@ -69,21 +78,27 @@ const Header = () => {
         </div>
         <div className="space-y-4 px-4 py-6 font-medium">
           <a href="/" className="block transition hover:text-yellow-300">
-            Home
+            হোম
           </a>
           <a href="about" className="block transition hover:text-yellow-300">
-            About
+            মেন্টর
           </a>
           <a href="service" className="block transition hover:text-yellow-300">
-            Services
+            সকল কোর্স
           </a>
           <a href="contact" className="block transition hover:text-yellow-300">
-            Contact
+            ব্লগ
+          </a>
+          <a href="contact" className="block transition hover:text-yellow-300">
+            যোগযোগ
+          </a>
+          <a href="contact" className="block transition hover:text-yellow-300">
+            কুপন
           </a>
           <a
             href="login"
             className="mt-4 block rounded-xl bg-white px-4 py-2 text-center font-semibold text-indigo-700 transition-all hover:bg-yellow-300">
-            Get Started
+            রেজিস্টার/লগইন
           </a>
         </div>
       </div>
