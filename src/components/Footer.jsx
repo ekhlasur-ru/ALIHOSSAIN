@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaBuilding,
 } from "react-icons/fa";
+import logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
@@ -15,8 +16,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <FaBuilding className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">Company</span>
+              <span className="ml-2 text-xl font-bold"><img src={logo} alt="" /></span>
             </div>
             <p className="text-gray-400">
               Building innovative solutions for the modern world.

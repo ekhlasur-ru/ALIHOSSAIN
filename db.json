@@ -1,0 +1,95 @@
+{
+  "user": [
+    {
+      "_id": "689697ea25ce0c3382fd631b",
+      "picture": "http://placehold.it/32x32",
+      "age": 3,
+      "name": "Hopkins Andrews",
+      "gender": "male",
+      "company": "NETUR",
+      "email": "hopkinsandrews@netur.com",
+      "phone": "+880 (997) 543-3560",
+      "address": "890 Vanderbilt Avenue, Helen, Wisconsin, 5708",
+      "about": "Do veniam anim exercitation magna ad. Sit amet quis eiusmod in magna qui ea. Nisi nulla commodo adipisicing laborum cillum labore incididunt pariatur culpa ut deserunt esse. Reprehenderit sint amet excepteur labore culpa ut ex ea consectetur cillum. Nostrud eiusmod irure in nostrud.\r\n",
+      "registered": "2015-08-31T04:32:05 -06:00"
+    },
+    {
+      "_id": "689697ea664c6af2bab25048",
+      "picture": "http://placehold.it/32x32",
+      "age": 34,
+      "name": "Molina Mccall",
+      "gender": "male",
+      "company": "OPTICOM",
+      "email": "molinamccall@opticom.com",
+      "phone": "+880 (909) 480-3485",
+      "address": "298 Covert Street, Hayes, Idaho, 1942",
+      "about": "Qui cupidatat veniam cillum sit id commodo deserunt proident magna amet. Consequat magna pariatur velit esse sit culpa ullamco amet nulla pariatur mollit sint occaecat anim. Aute quis anim fugiat consequat excepteur consectetur aliquip culpa. Occaecat commodo veniam culpa cupidatat nostrud do veniam mollit dolore mollit mollit. Anim fugiat est commodo eu aliqua. Aliquip laboris nulla culpa minim est qui aliquip labore nulla tempor irure ad commodo.\r\n",
+      "registered": "2019-04-30T04:51:45 -06:00"
+    },
+    {
+      "_id": "689697ea9f82259b2965e38c",
+      "picture": "http://placehold.it/32x32",
+      "age": 22,
+      "name": "Sanchez Good",
+      "gender": "male",
+      "company": "OPTYK",
+      "email": "sanchezgood@optyk.com",
+      "phone": "+880 (893) 557-2739",
+      "address": "954 Post Court, Shaft, Connecticut, 4717",
+      "about": "Nostrud magna adipisicing quis proident eu irure sunt. Qui consectetur labore reprehenderit culpa ex aliqua anim est. Aliqua occaecat ex pariatur laborum ullamco laborum. Et irure ea nostrud qui tempor reprehenderit. Dolor sunt non consequat laboris exercitation elit qui eiusmod do consectetur duis. Veniam ea et ex Lorem ullamco deserunt commodo commodo sunt consequat ut cillum sit ex.\r\n",
+      "registered": "2025-01-26T08:21:38 -06:00"
+    },
+    {
+      "_id": "689697eac500db85f3cb5bd8",
+      "picture": "http://placehold.it/32x32",
+      "age": 23,
+      "name": "Mavis Hicks",
+      "gender": "female",
+      "company": "BLANET",
+      "email": "mavishicks@blanet.com",
+      "phone": "+880 (982) 568-2877",
+      "address": "700 Wogan Terrace, Dana, South Carolina, 184",
+      "about": "Et ea anim ipsum non veniam culpa in ex laboris sit cupidatat aute. Nostrud do non aute proident quis. Aute aute proident aliquip magna consequat sit nisi irure do deserunt mollit elit. Aliquip anim irure et commodo minim culpa anim et quis minim adipisicing. Duis non ullamco nulla velit magna Lorem occaecat.\r\n",
+      "registered": "2015-07-01T06:51:12 -06:00"
+    },
+    {
+      "_id": "689697ea0bac89f100208db8",
+      "picture": "http://placehold.it/32x32",
+      "age": 25,
+      "name": "Kelley Stark",
+      "gender": "male",
+      "company": "EMOLTRA",
+      "email": "kelleystark@emoltra.com",
+      "phone": "+880 (805) 480-3462",
+      "address": "746 Miami Court, Rushford, Marshall Islands, 8798",
+      "about": "Officia culpa amet consectetur culpa. Elit veniam mollit velit occaecat laboris occaecat exercitation in Lorem magna. Do laborum tempor enim ex. Ullamco cillum ullamco id ipsum nisi dolore qui deserunt sit enim anim. Et eiusmod est qui reprehenderit. Anim sint mollit amet incididunt elit ut in sit ipsum incididunt duis occaecat culpa. Velit proident irure duis consectetur culpa.\r\n",
+      "registered": "2016-03-05T04:32:59 -06:00"
+    },
+    {
+      "_id": "689697eaac05c44a43647342",
+      "picture": "http://placehold.it/32x32",
+      "age": 26,
+      "name": "Hensley Klein",
+      "gender": "male",
+      "company": "XYLAR",
+      "email": "hensleyklein@xylar.com",
+      "phone": "+880 (827) 498-2919",
+      "address": "379 Poplar Avenue, Chicopee, Illinois, 2990",
+      "about": "Fugiat excepteur ullamco eu est in magna sit id occaecat incididunt ex elit amet occaecat. Dolore consectetur cillum est fugiat velit minim sit ut sunt. Elit amet eu quis voluptate esse veniam pariatur pariatur duis fugiat. Occaecat sint aliqua magna voluptate incididunt cillum nostrud do fugiat aute eiusmod minim cillum. Veniam incididunt culpa irure excepteur ut excepteur excepteur occaecat laboris.\r\n",
+      "registered": "2025-01-21T05:19:36 -06:00"
+    },
+    {
+      "_id": "689697eadc7a3e895e4be0d2",
+      "picture": "http://placehold.it/32x32",
+      "age": 39,
+      "name": "Singleton Knowles",
+      "gender": "male",
+      "company": "RUBADUB",
+      "email": "singletonknowles@rubadub.com",
+      "phone": "+880 (950) 561-2538",
+      "address": "985 Metrotech Courtr, Dixie, Ohio, 8424",
+      "about": "Non Lorem nulla dolor tempor cillum est occaecat velit velit ex veniam. Tempor voluptate nisi qui nostrud sunt adipisicing ut aute excepteur sit quis nulla laborum. Qui voluptate sunt proident aliquip amet ea do nulla ullamco. Fugiat adipisicing esse ullamco in sit dolor qui et est qui. Nulla consequat magna proident amet aliqua. Eiusmod nulla nostrud aliquip dolor reprehenderit duis reprehenderit proident.\r\n",
+      "registered": "2017-06-17T03:45:01 -06:00"
+    }
+  ]
+}

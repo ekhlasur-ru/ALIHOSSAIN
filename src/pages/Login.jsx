@@ -1,8 +1,9 @@
 import React from 'react'
+import { motion } from "motion/react"
 
 function Login() {
   return (
-    <div>Login</div>
+    <motion.div><Typewriter>Hello world!</Typewriter></motion.div>
   )
 }
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from '../assets/logo.png'
 
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -12,31 +13,28 @@ const Header = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex-shrink-0 text-xl font-bold text-white md:text-3xl">
-            <p>aliHossain</p>
-            <p className="ml-8 flex justify-center bg-indigo-400 text-right text-[14px] md:ml-16 md:py-1">
-              academy
-            </p>
+          <div className="flex-shrink-0 text-xl font-bold text-white md:text-2xl">
+            <img src={logo} alt="" />
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden space-x-6 font-medium text-white md:flex">
-            <a href="/" className="transition hover:text-yellow-300">
+            <a href="/" className="transition hover:text-indigo-300">
               হোম
             </a>
-            <a href="about" className="transition hover:text-yellow-300">
+            <a href="about" className="transition hover:text-indigo-300">
               মেন্টর
             </a>
-            <a href="service" className="transition hover:text-yellow-300">
+            <a href="service" className="transition hover:text-indigo-300">
               সকল কোর্স
             </a>
-            <a href="service" className="transition hover:text-yellow-300">
+            <a href="service" className="transition hover:text-indigo-300">
               ব্লগ
             </a>
-            <a href="contact" className="transition hover:text-yellow-300">
+            <a href="contact" className="transition hover:text-indigo-300">
               যোগাযোগ
             </a>
-            <a href="service" className="transition hover:text-yellow-300">
+            <a href="service" className="transition hover:text-indigo-300">
               কুপন
             </a>
           </div>
@@ -45,7 +43,7 @@ const Header = () => {
           <div className="hidden md:block">
             <a
               href="login"
-              className="rounded-xl bg-gradient-to-r from-indigo-700 to-purple-700 px-6 py-2 text-white transition-all duration-300 hover:from-purple-700 hover:to-indigo-700">
+              className="rounded-xl bg-gradient-to-r from-indigo-700 to-purple-700 px-4 py-1 text-white transition-all duration-300 hover:from-purple-700 hover:to-indigo-700">
               রেজিস্টার/লগইন
             </a>
           </div>
@@ -77,27 +75,27 @@ const Header = () => {
           </button>
         </div>
         <div className="space-y-4 px-4 py-6 font-medium">
-          <a href="/" className="block transition hover:text-yellow-300">
+          <a href="/" className="block transition hover:text-indigo-300">
             হোম
           </a>
-          <a href="about" className="block transition hover:text-yellow-300">
+          <a href="about" className="block transition hover:text-indigo-300">
             মেন্টর
           </a>
-          <a href="service" className="block transition hover:text-yellow-300">
+          <a href="service" className="block transition hover:text-indigo-300">
             সকল কোর্স
           </a>
-          <a href="contact" className="block transition hover:text-yellow-300">
+          <a href="contact" className="block transition hover:text-indigo-300">
             ব্লগ
           </a>
-          <a href="contact" className="block transition hover:text-yellow-300">
+          <a href="contact" className="block transition hover:text-indigo-300">
             যোগযোগ
           </a>
-          <a href="contact" className="block transition hover:text-yellow-300">
+          <a href="contact" className="block transition hover:text-indigo-300">
             কুপন
           </a>
           <a
             href="login"
-            className="mt-4 block rounded-xl bg-white px-4 py-2 text-center font-semibold text-indigo-700 transition-all hover:bg-yellow-300">
+            className="mt-4 block rounded-xl bg-white px-4 py-2 text-center font-semibold text-indigo-700 transition-all hover:bg-indigo-300">
             রেজিস্টার/লগইন
           </a>
         </div>
@@ -106,7 +104,7 @@ const Header = () => {
       {/* Overlay */}
       {isDrawerOpen && (
         <div
-          className="bg-opacity-50 fixed inset-0 z-30 bg-black md:hidden"
+          className="bg-opacity-50 fixed inset-0 z-30 backdrop-blur-sm md:hidden"
           onClick={toggleDrawer}></div>
       )}
     </nav>
